@@ -9,6 +9,8 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  return groceries.values
+  groceries = {fruit: "Banana", vegetable: "Broccoli", dessert: "Cookie"}
+ 
+groceries.values
   
 end
