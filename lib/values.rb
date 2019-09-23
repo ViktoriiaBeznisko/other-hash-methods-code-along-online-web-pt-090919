@@ -9,6 +9,6 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  puts groceries.values
+  return groceries.values
   
 end
